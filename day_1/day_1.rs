@@ -1,5 +1,9 @@
 use std::fs::read_to_string;
 
+// Algorithm:
+// 1. Sort both lists
+// 2. Get absolute difference of corresponding elements and sum them up
+// 3. Return the total distance
 fn main() {
     // Read input file
     let input = read_to_string("input.txt").expect("Failed to read input file");
